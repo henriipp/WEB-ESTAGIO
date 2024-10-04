@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "nome": "KIT UPGRADE",
+        "descricao": "Kit upgrade com configuração muito boa. Processador i5, 16GB de ram, placa mãe B75",
+        "preco": 100.00,
+        "imagem": "https://m.media-amazon.com/images/I/71cdRde8IiL._AC_SX679_.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "PC GAMER COMPLETO",
+        "descricao": "Computador com configuração muito boa para jogos.",
+        "preco": 200.00,
+        "imagem": "https://m.media-amazon.com/images/I/61k+PkiT62L._AC_SY300_SX300_.jpg"
+    }
+]

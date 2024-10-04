@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background: #e8491d;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #de451a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #35424a;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(33% - 20px);
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carrinho {
+    margin-top: 20px;
+}
+
+.destaque-produtos,
+.promocoes,
+.depoimentos,
+.noticias {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: calc(33% - 20px);
+}
+
+.promo {
+    background: #e8491d;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+blockquote {
+    border-left: 5px solid #e8491d;
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+article {
+    margin: 10px 0;
+}
+
+.botao {
+    background: #35424a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.botao:hover {
+    background: #e8491d;
+}
